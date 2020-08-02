@@ -24,3 +24,7 @@ v2ray log 查看 V2Ray 运行日志
 v2ray update 更新 V2Ray
 v2ray update.sh 更新 V2Ray 管理脚本
 v2ray uninstall 卸载 V2Ray
+
+SSR
+yum -y install wget
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
